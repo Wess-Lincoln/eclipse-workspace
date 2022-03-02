@@ -1,0 +1,26 @@
+package estrutura.de.controles;
+
+import java.util.Scanner;
+
+public class DesafioWhile {
+	public static void main(String[] args) {
+		
+		Scanner teclado  = new Scanner(System.in);
+		
+		System.out.println("Digite uma nota:");
+		double nota = teclado.nextDouble();
+		
+		for(nota=0; nota <=10; nota++) {
+		
+		System.out.print(nota);
+		teclado.close();
+		
+		}	
+		
+		
+		
+	}
+
+	}
+
+

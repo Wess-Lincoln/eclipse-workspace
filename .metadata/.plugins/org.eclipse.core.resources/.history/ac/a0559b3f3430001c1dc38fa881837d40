@@ -1,0 +1,19 @@
+package estrutura.de.controles;
+
+import javax.swing.JOptionPane;
+
+public class DesafioWhile {
+	public static void main(String[] args) {
+		
+		JOptionPane.showInputDialog("Digite uma Nota");
+		String nota = "";
+		
+		double notas = Double.parseDouble(nota);
+		
+		System.out.println(notas);
+		
+	}
+
+	}
+
+

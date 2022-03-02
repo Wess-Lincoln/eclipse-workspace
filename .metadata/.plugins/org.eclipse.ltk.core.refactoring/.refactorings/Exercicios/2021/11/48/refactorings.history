@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;oocomposicoes.Iten&apos; to &apos;Item&apos;&#x0D;&#x0A;- Original project: &apos;Exercicios&apos;&#x0D;&#x0A;- Original element: &apos;oocomposicoes.Iten&apos;&#x0D;&#x0A;- Renamed element: &apos;oocomposicoes.Item&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Iten&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;oocomposicoes{Iten.java[Iten" matchStrategy="1" name="Item" qualified="false" references="true" similarDeclarations="false" stamp="1637773769415" textual="false" version="1.0"/>
+</session>

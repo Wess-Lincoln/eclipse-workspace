@@ -1,0 +1,15 @@
+package estrutura.de.controles;
+
+public class DoWhile {
+	public static void main(String[] args) {
+		
+		//if (...) sentença de código; ou {}
+		// while (...) sentença de código;ou {}
+		// for (incializa a variavél; Expressão; Modificação var)
+		//sentença de código;ou {}
+		//do sentença de código;ou {} while(...);
+		
+		
+	}
+
+}

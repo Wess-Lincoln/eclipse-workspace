@@ -1,0 +1,5 @@
+package ooabstract;
+
+public class Cachorro extends Animal{
+
+}

@@ -1,0 +1,46 @@
+package arrays;
+
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class DesafioArray {
+public static void main(String[] args) {
+	String nota1;
+	String nota2;
+	String nota3;
+	String nota4;
+	
+	Scanner entrada= new Scanner(System.in);
+	
+	System.out.println("Digite as notas");
+	nota1= entrada.next();
+    double n1 = Double.parseDouble(nota1);
+    do while(n1<0||n1>10) {
+    System.out.println("Digite uma nota valida");
+    
+    	if(n1>=0||n1<=10) {
+    		System.out.println("Digite a proxima nota");
+    	}
+    
+	nota2= entrada.next();
+    double n2 = Double.parseDouble(nota2);
+    while(n1<0||n1>10) {
+    	System.out.println("Digite uma nota valida");
+    }
+	nota3= entrada.next();
+    double n3 = Double.parseDouble(nota3);
+    while(n1<0||n1>10) {
+    	System.out.println("Digite uma nota valida");
+    }
+	nota4= entrada.next();
+    double n4 = Double.parseDouble(nota4);
+    while(n1<0||n1>10) {
+    	System.out.println("Digite uma nota valida");
+    }
+    
+    double[] tdasNotas = {n1,n2,n3,n4};
+    
+    }	
+	
+}}
