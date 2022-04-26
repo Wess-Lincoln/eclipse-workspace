@@ -57,7 +57,7 @@ public class Calculadora {
 	    {
 	      this.valor1 = textoDisplay.toString();
 	   }
-	    public String getValor1()
+	    public String getValor1(String string)
 	    {
 	        return valor1;
 	    }
@@ -85,13 +85,13 @@ public class Calculadora {
 	        {
 	            public void actionPerformed(ActionEvent a){
 	              
-	               if(ponto) {
-	               decimal/=10;
+	               //if(ponto) {
+	               //decimal/=10;
 	 
 	               }
 	               Float valor = Float.parseFloat(valor1);
-	               valor*=10;
-	               valor+=1;
+	               //valor*=10;
+	               //valor+=1;
 	                
 	               String valor2 = valor.toString();
 	               textoDisplay.setText(valor2);
@@ -107,8 +107,8 @@ public class Calculadora {
 	            public void actionPerformed(ActionEvent a) {
 	            	
 	            Float valor = Float.parseFloat(valor1);
-            	valor*=10;
-            	valor+=2;
+            	//valor*=10;
+            	//valor+=2;
             	
             	String valor2 = valor.toString();
 	               textoDisplay.setText(valor2);
@@ -120,8 +120,8 @@ public class Calculadora {
 	            {   if(ponto) {
             		decimal/=3;
             	}
-            	valor1*=10;
-            	valor1+=3;
+            	//valor1*=10;
+            	//valor1+=3;
 	                textoDisplay.setText(""+valor1);
 	            }
 	        });
@@ -131,8 +131,8 @@ public class Calculadora {
 	            {  if(ponto) {
             		decimal/=4;
             	}
-            	valor1*=10;
-            	valor1+=4;
+            	//valor1*=10;
+            	//valor1+=4;
 	                textoDisplay.setText(""+valor1);
 	            }
 	        });
@@ -142,8 +142,8 @@ public class Calculadora {
 	            {   if(ponto) {
             		decimal/=5;
             	}
-            	valor1*=10;
-            	valor1+=5;
+            	//valor1*=10;
+            	//valor1+=5;
 	                textoDisplay.setText(""+valor1);
 	            }
 	        });
@@ -153,8 +153,8 @@ public class Calculadora {
 	            {   if(ponto) {
             		decimal/=6;
             	}
-            	valor1*=10;
-            	valor1+=6;
+            	//valor1*=10;
+            	//valor1+=6;
 	                textoDisplay.setText(""+valor1);
 	            }
 	        });
@@ -164,8 +164,8 @@ public class Calculadora {
 	            {   if(ponto) {
             		decimal/=7;
             	}
-            	valor1*=10;
-            	valor1+=7;
+            	//valor1*=10;
+            	//valor1+=7;
 	                textoDisplay.setText(""+valor1);
 	            }
 	        });
@@ -175,19 +175,19 @@ public class Calculadora {
 	            {   if(ponto) {
             		decimal/=8;
             	}
-            	valor1*=10;
-            	valor1+=8;
+            	//valor1*=10;
+            	//valor1+=8;
 	                textoDisplay.setText(""+valor1);
 	            }
 	        });
 	        btn9.addActionListener(new ActionListener()
 	        {
 	            public void actionPerformed(ActionEvent a)
-	            {  if(ponto) {
-            		decimal/=9;
-            	}
-            	valor1*=10;
-            	valor1+=9;
+	            { // if(ponto) {
+            		//decimal/=9;
+            	//}
+            	//valor1*=10;
+            	//valor1+=9;
 	                textoDisplay.setText(""+valor1);
 	            }
 	        });
@@ -202,7 +202,7 @@ public class Calculadora {
 	        {
 	            public void actionPerformed(ActionEvent a)
 	            {
-	                valor1 = 0;
+	                //valor1 = 0;
 	                textoDisplay.setText("");
 	            }
 	        });
@@ -267,16 +267,16 @@ public class Calculadora {
 	        operacao = 0;
 	        textoDisplay.setText
 	        
-	        (Float.toString
-	        (getValor1()+Float.parseFloat(textoDisplay.getText())));
+	      
+	        (getValor1(valor1)+Float.parseFloat(textoDisplay.getText()));
 	        
 	        break;
 	                    }
 	                    //diminuir
 	        case 2 :{
 	        operacao = 0;
-	        textoDisplay.setText(Float.toString
-	        (getValor1()-Float.parseFloat(textoDisplay.getText())));
+	        textoDisplay.setText
+	        (getValor1(valor1)-Float.parseFloat(textoDisplay.getText()));
 	        break;
 	        }
 	                    //dividir
@@ -284,7 +284,7 @@ public class Calculadora {
 	        try{
 	        operacao = 0;
 	        textoDisplay.setText
-	        (Float.toString(getValor1() / Float.parseFloat(textoDisplay.getText())));}
+	        (getValor1(valor1) / Float.parseFloat(textoDisplay.getText()));}
 	        catch(ArithmeticException ex){
 	        textoDisplay.setText("");
 	        System.out.println
