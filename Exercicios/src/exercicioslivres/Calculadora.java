@@ -41,7 +41,7 @@ public class Calculadora {
 	  
 	    private TextField textoDisplay = new TextField("");
 	  
-	    private String valor1 = "";
+	    private Float valor1;
 
 
 	    // Variavel de Operacao
@@ -55,12 +55,13 @@ public class Calculadora {
 	    public void setValor1() {
 		}
 	    {
-	      this.valor1 = textoDisplay.toString();
+	      this.valor1 = textoDisplay;
 	   }
-	    public String getValor1(String string)
+	    public TextField getValor1(Float floats)
 	    {
 	        return valor1;
-	    }
+	    
+
 	
 		    {  	
 	        frm1.addWindowListener(new WindowAdapter()
@@ -84,29 +85,21 @@ public class Calculadora {
 	        btn1.addActionListener(new ActionListener()
 	        {
 	            public void actionPerformed(ActionEvent a){
-	              
-	               //if(ponto) {
-	               //decimal/=10;
-	 
-	               }
-	               Float valor = Float.parseFloat(valor1);
-	               //valor*=10;
-	               //valor+=1;
-	                
-	               String valor2 = valor.toString();
-	               textoDisplay.setText(valor2);
-	            }
-	            
-	        });
-	   
-	            
-	       
+	             
+	               
+	               TextField valor = (valor1);
+		    
 	        
+	            return;
+	       
+		    }
+	           
+	            
 	        btn2.addActionListener(new ActionListener()
 	        {
 	            public void actionPerformed(ActionEvent a) {
 	            	
-	            Float valor = Float.parseFloat(valor1);
+	            TextField valor = (valor1);
             	//valor*=10;
             	//valor+=2;
             	

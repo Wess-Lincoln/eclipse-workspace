@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javax.swing.JButton"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="java.util.Locale"/>
-    <fullyQualifiedTypeName name="fundamentos.TipoStringEquals"/>
     <fullyQualifiedTypeName name="classe.AreaCirc"/>
     <fullyQualifiedTypeName name="classe.Produto"/>
     <fullyQualifiedTypeName name="classe.Data"/>
@@ -36,8 +32,6 @@
     <fullyQualifiedTypeName name="oodesafio.Item"/>
     <fullyQualifiedTypeName name="oodesafio.Cliente"/>
     <fullyQualifiedTypeName name="oodesafio.Produto"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.awt.List"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
@@ -53,11 +47,17 @@
     <fullyQualifiedTypeName name="java.util.function.Consumer"/>
     <fullyQualifiedTypeName name="org.graalvm.compiler.graph.spi.Canonicalizable.Unary"/>
     <fullyQualifiedTypeName name="java.util.function.UnaryOperator"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="exception.cm.ExplosaoException"/>
     <fullyQualifiedTypeName name="java.util.function.Predicate"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="model.cm.Tabuleiro"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="padroes.observer.ObservadorChegadaAniversariante"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 </qualifiedTypeNameHistroy>

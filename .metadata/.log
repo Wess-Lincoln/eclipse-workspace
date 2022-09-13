@@ -12494,3 +12494,2371 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.eclipse.theming.ui 4 0 2022-04-28 10:28:14.517
+!MESSAGE www.genuitec.com
+!STACK 0
+java.net.UnknownHostException: www.genuitec.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:287)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:203)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:189)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1592)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at com.genuitec.eclipse.theming.ui.IconDownloaderJob.getApprovedDefinitions(IconDownloaderJob.java:86)
+	at com.genuitec.eclipse.theming.ui.IconDownloaderJob.run(IconDownloaderJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2022-05-06 09:35:44.509 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=11.0.12
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2022-05-06 09:37:51.605
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-05-06 09:37:51.605
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5e435f0d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@51a7ee4e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-05-06 09:38:27.741
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-05-06 09:38:27.851
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-05-06 09:38:28.275
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Wesley'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 09:39:36.055
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 09:39:36.056
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 09:39:36.059
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 09:39:36.060
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 09:45:17.369
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 09:45:17.423
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 09:45:17.424
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 09:45:17.425
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 09:45:17.428
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 09:45:17.429
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 09:45:17.430
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 09:45:17.431
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 09:45:17.829
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 09:45:17.830
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 09:45:17.831
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 09:45:17.832
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 09:45:17.845
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 09:45:17.846
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 09:45:17.847
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 09:45:17.848
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 09:45:17.907
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 09:45:17.908
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 09:45:17.909
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 09:45:17.910
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 09:45:17.927
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 09:45:17.927
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 09:45:17.929
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 09:45:17.930
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 10:09:57.176
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 10:09:57.177
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 10:09:57.178
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 10:09:57.179
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 10:40:18.228
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 10:40:18.229
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 10:40:18.230
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-06 10:40:18.231
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+!SESSION 2022-05-12 09:37:08.518 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=11.0.12
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2022-05-12 09:38:28.756
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-05-12 09:38:28.756
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@51a7ee4e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@424c8ebe,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-05-12 09:39:08.114
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-05-12 09:39:08.193
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-05-12 09:39:08.303
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Wesley'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-12 09:40:16.280
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-12 09:40:16.324
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-12 09:40:16.325
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-12 09:40:16.326
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-05-12 09:56:28.531
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:728)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:338)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:287)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:265)
+	at org.eclipse.jdt.internal.debug.ui.launcher.DebugTypeSelectionDialog$DebugTypeLabelProvider.getImage(DebugTypeSelectionDialog.java:68)
+	at org.eclipse.jdt.internal.debug.ui.launcher.DebugTypeSelectionDialog$DebugTypeDetailsLabelProvider.getImage(DebugTypeSelectionDialog.java:163)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$DetailsContentViewer.refresh(FilteredItemsSelectionDialog.java:2882)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$DetailsContentViewer.inputChanged(FilteredItemsSelectionDialog.java:2851)
+	at org.eclipse.jface.viewers.ContentViewer.setInput(ContentViewer.java:282)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog.refreshDetails(FilteredItemsSelectionDialog.java:771)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog.handleSelected(FilteredItemsSelectionDialog.java:838)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog.lambda$5(FilteredItemsSelectionDialog.java:662)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2132)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1178)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1207)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:242)
+	at org.eclipse.jface.util.OpenStrategy.access$4(OpenStrategy.java:237)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:402)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:766)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog.refresh(FilteredItemsSelectionDialog.java:884)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$RefreshJob.runInUIThread(FilteredItemsSelectionDialog.java:1307)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.chooseType(JavaLaunchShortcut.java:152)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.searchAndLaunch(JavaLaunchShortcut.java:132)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.launch(JavaLaunchShortcut.java:274)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:419)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launchShortcut(ContextRunner.java:262)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.selectAndLaunch(ContextRunner.java:188)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launch(ContextRunner.java:100)
+	at org.eclipse.debug.ui.actions.AbstractLaunchToolbarAction.runInternal(AbstractLaunchToolbarAction.java:90)
+	at org.eclipse.debug.ui.actions.AbstractLaunchHistoryAction.runWithEvent(AbstractLaunchHistoryAction.java:422)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:229)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:218)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$5(ActionContributionItem.java:453)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1435)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-05-12 09:56:28.588
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:728)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:338)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:287)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:265)
+	at org.eclipse.jdt.internal.debug.ui.launcher.DebugTypeSelectionDialog$DebugTypeLabelProvider.getImage(DebugTypeSelectionDialog.java:68)
+	at org.eclipse.jdt.internal.debug.ui.launcher.DebugTypeSelectionDialog$DebugTypeDetailsLabelProvider.getImage(DebugTypeSelectionDialog.java:163)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$DetailsContentViewer.refresh(FilteredItemsSelectionDialog.java:2882)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$DetailsContentViewer.inputChanged(FilteredItemsSelectionDialog.java:2851)
+	at org.eclipse.jface.viewers.ContentViewer.setInput(ContentViewer.java:282)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog.refreshDetails(FilteredItemsSelectionDialog.java:771)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog.handleSelected(FilteredItemsSelectionDialog.java:838)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog.lambda$5(FilteredItemsSelectionDialog.java:662)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2132)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1178)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1207)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:242)
+	at org.eclipse.jface.util.OpenStrategy.access$4(OpenStrategy.java:237)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:402)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:766)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog.refresh(FilteredItemsSelectionDialog.java:884)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$RefreshJob.runInUIThread(FilteredItemsSelectionDialog.java:1307)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.chooseType(JavaLaunchShortcut.java:152)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.searchAndLaunch(JavaLaunchShortcut.java:132)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.launch(JavaLaunchShortcut.java:274)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:419)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launchShortcut(ContextRunner.java:262)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.selectAndLaunch(ContextRunner.java:188)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launch(ContextRunner.java:100)
+	at org.eclipse.debug.ui.actions.AbstractLaunchToolbarAction.runInternal(AbstractLaunchToolbarAction.java:90)
+	at org.eclipse.debug.ui.actions.AbstractLaunchHistoryAction.runWithEvent(AbstractLaunchHistoryAction.java:422)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:229)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:218)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$5(ActionContributionItem.java:453)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1435)
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-12 10:10:37.413
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-12 10:10:37.414
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-12 10:10:37.415
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-12 10:10:37.416
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-12 10:41:00.463
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-12 10:41:00.704
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-12 10:41:00.790
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-12 10:41:00.793
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-05-12 10:48:06.846
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:728)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:338)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:287)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:265)
+	at org.eclipse.jdt.internal.debug.ui.launcher.DebugTypeSelectionDialog$DebugTypeLabelProvider.getImage(DebugTypeSelectionDialog.java:68)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$ItemsListLabelProvider.getImage(FilteredItemsSelectionDialog.java:1518)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$ItemsListLabelProvider.update(FilteredItemsSelectionDialog.java:1568)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:144)
+	at org.eclipse.jface.viewers.AbstractTableViewer.doUpdateItem(AbstractTableViewer.java:396)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:427)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.refreshItem(StructuredViewer.java:1501)
+	at org.eclipse.jface.viewers.AbstractTableViewer.replace(AbstractTableViewer.java:1017)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$ContentProvider.updateElement(FilteredItemsSelectionDialog.java:2625)
+	at org.eclipse.jface.viewers.AbstractTableViewer$VirtualManager.lambda$0(AbstractTableViewer.java:87)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:1157)
+	at org.eclipse.swt.widgets.Table.wmNotifyChild(Table.java:6598)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5814)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1954)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5382)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4816)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4938)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:588)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:454)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Table.windowProc(Table.java:5813)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4938)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:588)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:454)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Table.windowProc(Table.java:5813)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4938)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:460)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:454)
+	at org.eclipse.swt.widgets.Table.windowProc(Table.java:5727)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:588)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:454)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Table.windowProc(Table.java:5813)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4938)
+	at org.eclipse.swt.internal.win32.OS.SendMessage(Native Method)
+	at org.eclipse.swt.widgets.Table.setScrollWidth(Table.java:4786)
+	at org.eclipse.swt.widgets.Table.setScrollWidth(Table.java:4888)
+	at org.eclipse.swt.widgets.Table.wmNotifyChild(Table.java:6600)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5814)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1954)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5382)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4816)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:588)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:454)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Table.windowProc(Table.java:5813)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.SendMessage(Native Method)
+	at org.eclipse.swt.widgets.Table.select(Table.java:3328)
+	at org.eclipse.swt.widgets.Table.setSelection(Table.java:5017)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog.refresh(FilteredItemsSelectionDialog.java:883)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$RefreshJob.runInUIThread(FilteredItemsSelectionDialog.java:1307)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.chooseType(JavaLaunchShortcut.java:152)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.searchAndLaunch(JavaLaunchShortcut.java:132)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.launch(JavaLaunchShortcut.java:274)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:419)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launchShortcut(ContextRunner.java:262)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.selectAndLaunch(ContextRunner.java:188)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launch(ContextRunner.java:100)
+	at org.eclipse.debug.ui.actions.AbstractLaunchToolbarAction.runInternal(AbstractLaunchToolbarAction.java:90)
+	at org.eclipse.debug.ui.actions.AbstractLaunchHistoryAction.runWithEvent(AbstractLaunchHistoryAction.java:422)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:229)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:218)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$5(ActionContributionItem.java:453)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1435)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-05-12 10:48:06.854
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:728)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:338)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:287)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:265)
+	at org.eclipse.jdt.internal.debug.ui.launcher.DebugTypeSelectionDialog$DebugTypeLabelProvider.getImage(DebugTypeSelectionDialog.java:68)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$ItemsListLabelProvider.getImage(FilteredItemsSelectionDialog.java:1518)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$ItemsListLabelProvider.update(FilteredItemsSelectionDialog.java:1568)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:144)
+	at org.eclipse.jface.viewers.AbstractTableViewer.doUpdateItem(AbstractTableViewer.java:396)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:427)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.refreshItem(StructuredViewer.java:1501)
+	at org.eclipse.jface.viewers.AbstractTableViewer.replace(AbstractTableViewer.java:1017)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$ContentProvider.updateElement(FilteredItemsSelectionDialog.java:2625)
+	at org.eclipse.jface.viewers.AbstractTableViewer$VirtualManager.lambda$0(AbstractTableViewer.java:87)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:1157)
+	at org.eclipse.swt.widgets.Table.wmNotifyChild(Table.java:6598)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5814)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1954)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5382)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4816)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4938)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:588)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:454)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Table.windowProc(Table.java:5813)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4938)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:588)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:454)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Table.windowProc(Table.java:5813)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4938)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:460)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:454)
+	at org.eclipse.swt.widgets.Table.windowProc(Table.java:5727)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:588)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:454)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Table.windowProc(Table.java:5813)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4938)
+	at org.eclipse.swt.internal.win32.OS.SendMessage(Native Method)
+	at org.eclipse.swt.widgets.Table.setScrollWidth(Table.java:4786)
+	at org.eclipse.swt.widgets.Table.setScrollWidth(Table.java:4888)
+	at org.eclipse.swt.widgets.Table.wmNotifyChild(Table.java:6600)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5814)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1954)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5382)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4816)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:588)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:454)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Table.windowProc(Table.java:5813)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.SendMessage(Native Method)
+	at org.eclipse.swt.widgets.Table.select(Table.java:3328)
+	at org.eclipse.swt.widgets.Table.setSelection(Table.java:5017)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog.refresh(FilteredItemsSelectionDialog.java:883)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$RefreshJob.runInUIThread(FilteredItemsSelectionDialog.java:1307)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.chooseType(JavaLaunchShortcut.java:152)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.searchAndLaunch(JavaLaunchShortcut.java:132)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.launch(JavaLaunchShortcut.java:274)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:419)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launchShortcut(ContextRunner.java:262)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.selectAndLaunch(ContextRunner.java:188)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launch(ContextRunner.java:100)
+	at org.eclipse.debug.ui.actions.AbstractLaunchToolbarAction.runInternal(AbstractLaunchToolbarAction.java:90)
+	at org.eclipse.debug.ui.actions.AbstractLaunchHistoryAction.runWithEvent(AbstractLaunchHistoryAction.java:422)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:229)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:218)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$5(ActionContributionItem.java:453)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1435)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-05-12 10:48:06.857
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:728)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:338)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:287)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:265)
+	at org.eclipse.jdt.internal.debug.ui.launcher.DebugTypeSelectionDialog$DebugTypeLabelProvider.getImage(DebugTypeSelectionDialog.java:68)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$ItemsListLabelProvider.getImage(FilteredItemsSelectionDialog.java:1518)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$ItemsListLabelProvider.update(FilteredItemsSelectionDialog.java:1568)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:144)
+	at org.eclipse.jface.viewers.AbstractTableViewer.doUpdateItem(AbstractTableViewer.java:396)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:427)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.refreshItem(StructuredViewer.java:1501)
+	at org.eclipse.jface.viewers.AbstractTableViewer.replace(AbstractTableViewer.java:1017)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$ContentProvider.updateElement(FilteredItemsSelectionDialog.java:2625)
+	at org.eclipse.jface.viewers.AbstractTableViewer$VirtualManager.lambda$0(AbstractTableViewer.java:87)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:1157)
+	at org.eclipse.swt.widgets.Table.wmNotifyChild(Table.java:6598)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5814)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1954)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5382)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4816)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:588)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:454)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Table.windowProc(Table.java:5813)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.SendMessage(Native Method)
+	at org.eclipse.swt.widgets.Table.select(Table.java:3328)
+	at org.eclipse.swt.widgets.Table.setSelection(Table.java:5017)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog.refresh(FilteredItemsSelectionDialog.java:883)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$RefreshJob.runInUIThread(FilteredItemsSelectionDialog.java:1307)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.chooseType(JavaLaunchShortcut.java:152)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.searchAndLaunch(JavaLaunchShortcut.java:132)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.launch(JavaLaunchShortcut.java:274)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:419)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launchShortcut(ContextRunner.java:262)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.selectAndLaunch(ContextRunner.java:188)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launch(ContextRunner.java:100)
+	at org.eclipse.debug.ui.actions.AbstractLaunchToolbarAction.runInternal(AbstractLaunchToolbarAction.java:90)
+	at org.eclipse.debug.ui.actions.AbstractLaunchHistoryAction.runWithEvent(AbstractLaunchHistoryAction.java:422)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:229)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:218)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$5(ActionContributionItem.java:453)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1435)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-05-12 10:48:06.863
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:728)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:338)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:287)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:265)
+	at org.eclipse.jdt.internal.debug.ui.launcher.DebugTypeSelectionDialog$DebugTypeLabelProvider.getImage(DebugTypeSelectionDialog.java:68)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$ItemsListLabelProvider.getImage(FilteredItemsSelectionDialog.java:1518)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$ItemsListLabelProvider.update(FilteredItemsSelectionDialog.java:1568)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:144)
+	at org.eclipse.jface.viewers.AbstractTableViewer.doUpdateItem(AbstractTableViewer.java:396)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:427)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.refreshItem(StructuredViewer.java:1501)
+	at org.eclipse.jface.viewers.AbstractTableViewer.replace(AbstractTableViewer.java:1017)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$ContentProvider.updateElement(FilteredItemsSelectionDialog.java:2625)
+	at org.eclipse.jface.viewers.AbstractTableViewer$VirtualManager.lambda$0(AbstractTableViewer.java:87)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:1157)
+	at org.eclipse.swt.widgets.Table.wmNotifyChild(Table.java:6598)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5814)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1954)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5382)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4816)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4938)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:588)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:454)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Table.windowProc(Table.java:5813)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4938)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:588)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:454)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Table.windowProc(Table.java:5813)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4938)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:460)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:454)
+	at org.eclipse.swt.widgets.Table.windowProc(Table.java:5727)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:588)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:454)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Table.windowProc(Table.java:5813)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4938)
+	at org.eclipse.swt.internal.win32.OS.SendMessage(Native Method)
+	at org.eclipse.swt.widgets.Table.setScrollWidth(Table.java:4786)
+	at org.eclipse.swt.widgets.Table.setScrollWidth(Table.java:4888)
+	at org.eclipse.swt.widgets.Table.wmNotifyChild(Table.java:6600)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5814)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1954)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5382)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4816)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:588)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:454)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Table.windowProc(Table.java:5813)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.SendMessage(Native Method)
+	at org.eclipse.swt.widgets.Table.select(Table.java:3328)
+	at org.eclipse.swt.widgets.Table.setSelection(Table.java:5017)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog.refresh(FilteredItemsSelectionDialog.java:883)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$RefreshJob.runInUIThread(FilteredItemsSelectionDialog.java:1307)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.chooseType(JavaLaunchShortcut.java:152)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.searchAndLaunch(JavaLaunchShortcut.java:132)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.launch(JavaLaunchShortcut.java:274)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:419)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launchShortcut(ContextRunner.java:262)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.selectAndLaunch(ContextRunner.java:188)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launch(ContextRunner.java:100)
+	at org.eclipse.debug.ui.actions.AbstractLaunchToolbarAction.runInternal(AbstractLaunchToolbarAction.java:90)
+	at org.eclipse.debug.ui.actions.AbstractLaunchHistoryAction.runWithEvent(AbstractLaunchHistoryAction.java:422)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:229)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:218)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$5(ActionContributionItem.java:453)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1435)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-05-12 10:48:06.895
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:728)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:338)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:287)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:265)
+	at org.eclipse.jdt.internal.debug.ui.launcher.DebugTypeSelectionDialog$DebugTypeLabelProvider.getImage(DebugTypeSelectionDialog.java:68)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$ItemsListLabelProvider.getImage(FilteredItemsSelectionDialog.java:1518)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$ItemsListLabelProvider.update(FilteredItemsSelectionDialog.java:1568)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:144)
+	at org.eclipse.jface.viewers.AbstractTableViewer.doUpdateItem(AbstractTableViewer.java:396)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:427)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.refreshItem(StructuredViewer.java:1501)
+	at org.eclipse.jface.viewers.AbstractTableViewer.replace(AbstractTableViewer.java:1017)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$ContentProvider.updateElement(FilteredItemsSelectionDialog.java:2625)
+	at org.eclipse.jface.viewers.AbstractTableViewer$VirtualManager.lambda$0(AbstractTableViewer.java:87)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:1157)
+	at org.eclipse.swt.widgets.Table.wmNotifyChild(Table.java:6598)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5814)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1954)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5382)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4816)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4938)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:588)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:454)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Table.windowProc(Table.java:5813)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4938)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:588)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:454)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Table.windowProc(Table.java:5813)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4938)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:460)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:454)
+	at org.eclipse.swt.widgets.Table.windowProc(Table.java:5727)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:588)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:454)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Table.windowProc(Table.java:5813)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4938)
+	at org.eclipse.swt.internal.win32.OS.SendMessage(Native Method)
+	at org.eclipse.swt.widgets.Table.setScrollWidth(Table.java:4786)
+	at org.eclipse.swt.widgets.Table.setScrollWidth(Table.java:4888)
+	at org.eclipse.swt.widgets.Table.wmNotifyChild(Table.java:6600)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5814)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1954)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5382)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4816)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:588)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:454)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Table.windowProc(Table.java:5813)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.SendMessage(Native Method)
+	at org.eclipse.swt.widgets.Table.select(Table.java:3328)
+	at org.eclipse.swt.widgets.Table.setSelection(Table.java:5017)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog.refresh(FilteredItemsSelectionDialog.java:883)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$RefreshJob.runInUIThread(FilteredItemsSelectionDialog.java:1307)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.chooseType(JavaLaunchShortcut.java:152)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.searchAndLaunch(JavaLaunchShortcut.java:132)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.launch(JavaLaunchShortcut.java:274)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:419)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launchShortcut(ContextRunner.java:262)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.selectAndLaunch(ContextRunner.java:188)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launch(ContextRunner.java:100)
+	at org.eclipse.debug.ui.actions.AbstractLaunchToolbarAction.runInternal(AbstractLaunchToolbarAction.java:90)
+	at org.eclipse.debug.ui.actions.AbstractLaunchHistoryAction.runWithEvent(AbstractLaunchHistoryAction.java:422)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:229)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:218)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$5(ActionContributionItem.java:453)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1435)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-05-12 10:48:06.898
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:728)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:338)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:287)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:265)
+	at org.eclipse.jdt.internal.debug.ui.launcher.DebugTypeSelectionDialog$DebugTypeLabelProvider.getImage(DebugTypeSelectionDialog.java:68)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$ItemsListLabelProvider.getImage(FilteredItemsSelectionDialog.java:1518)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$ItemsListLabelProvider.update(FilteredItemsSelectionDialog.java:1568)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:144)
+	at org.eclipse.jface.viewers.AbstractTableViewer.doUpdateItem(AbstractTableViewer.java:396)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:427)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.refreshItem(StructuredViewer.java:1501)
+	at org.eclipse.jface.viewers.AbstractTableViewer.replace(AbstractTableViewer.java:1017)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$ContentProvider.updateElement(FilteredItemsSelectionDialog.java:2625)
+	at org.eclipse.jface.viewers.AbstractTableViewer$VirtualManager.lambda$0(AbstractTableViewer.java:87)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:1157)
+	at org.eclipse.swt.widgets.Table.wmNotifyChild(Table.java:6598)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5814)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1954)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5382)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4816)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:588)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:454)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Table.windowProc(Table.java:5813)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.SendMessage(Native Method)
+	at org.eclipse.swt.widgets.Table.select(Table.java:3328)
+	at org.eclipse.swt.widgets.Table.setSelection(Table.java:5017)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog.refresh(FilteredItemsSelectionDialog.java:883)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$RefreshJob.runInUIThread(FilteredItemsSelectionDialog.java:1307)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.chooseType(JavaLaunchShortcut.java:152)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.searchAndLaunch(JavaLaunchShortcut.java:132)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.launch(JavaLaunchShortcut.java:274)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:419)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launchShortcut(ContextRunner.java:262)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.selectAndLaunch(ContextRunner.java:188)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launch(ContextRunner.java:100)
+	at org.eclipse.debug.ui.actions.AbstractLaunchToolbarAction.runInternal(AbstractLaunchToolbarAction.java:90)
+	at org.eclipse.debug.ui.actions.AbstractLaunchHistoryAction.runWithEvent(AbstractLaunchHistoryAction.java:422)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:229)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:218)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$5(ActionContributionItem.java:453)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1435)
+!SESSION 2022-05-14 20:06:05.454 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=11.0.12
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2022-05-14 20:07:46.431
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-05-14 20:07:46.431
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@276511ca,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@62ee32c6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-05-14 20:08:20.630
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-05-14 20:08:20.645
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-05-14 20:08:21.067
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Wesley'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.eclipse.theming.ui 4 0 2022-05-14 20:08:21.754
+!MESSAGE No route to host: connect
+!STACK 0
+java.net.NoRouteToHostException: No route to host: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at java.base/java.net.Socket.connect(Socket.java:557)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient$1.run(HttpClient.java:526)
+	at java.base/sun.net.www.http.HttpClient$1.run(HttpClient.java:524)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/sun.net.www.http.HttpClient.privilegedOpenServer(HttpClient.java:523)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:564)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:212)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1208)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:189)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1592)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at com.genuitec.eclipse.theming.ui.IconDownloaderJob.getApprovedDefinitions(IconDownloaderJob.java:86)
+	at com.genuitec.eclipse.theming.ui.IconDownloaderJob.run(IconDownloaderJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-14 20:09:26.750
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-14 20:09:26.751
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-14 20:09:26.753
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-05-14 20:09:26.754
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+!SESSION 2022-06-17 15:01:19.864 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=11.0.12
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2022-06-17 15:05:22.725
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-17 15:05:22.725
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@424c8ebe,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7bb3cbb4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-06-17 15:05:59.186
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-06-17 15:05:59.309
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-06-17 15:06:00.296
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Wesley'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.net 1 0 2022-06-17 15:07:33.214
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-06-17 15:07:33.226
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-06-17 15:07:33.228
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-06-17 15:07:33.228
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-06-17 15:37:54.319
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-06-17 15:37:54.363
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-06-17 15:37:54.364
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-06-17 15:37:54.365
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-06-17 16:08:15.429
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-06-17 16:08:15.430
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-06-17 16:08:15.432
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-06-17 16:08:15.432
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-06-20 08:15:46.271
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-06-20 08:15:48.073
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-06-20 08:15:48.075
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-06-20 08:15:48.075
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY com.genuitec.eclipse.theming.ui 4 0 2022-06-20 08:15:48.474
+!MESSAGE Network is unreachable: connect
+!STACK 0
+java.net.SocketException: Network is unreachable: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at java.base/java.net.Socket.connect(Socket.java:557)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient$1.run(HttpClient.java:526)
+	at java.base/sun.net.www.http.HttpClient$1.run(HttpClient.java:524)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/sun.net.www.http.HttpClient.privilegedOpenServer(HttpClient.java:523)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:564)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:212)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1208)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:189)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1592)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at com.genuitec.eclipse.theming.ui.IconDownloaderJob.getApprovedDefinitions(IconDownloaderJob.java:86)
+	at com.genuitec.eclipse.theming.ui.IconDownloaderJob.run(IconDownloaderJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2022-07-01 10:04:38.982 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=11.0.12
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-07-01 10:06:34.724
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2022-07-01 10:07:16.074
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-01 10:07:16.074
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@69eb88a7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2db15764,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-07-01 10:07:47.312
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-07-01 10:07:47.352
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-07-01 10:07:47.542
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Wesley'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-01 10:08:55.012
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-01 10:08:55.080
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-01 10:08:55.090
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-01 10:08:55.094
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-01 10:39:16.242
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-01 10:39:16.275
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-01 10:39:16.277
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-01 10:39:16.278
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-01 11:09:37.597
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-01 11:09:37.612
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-01 11:09:37.628
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-01 11:09:37.628
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY com.genuitec.eclipse.webclipse.evergreen 4 0 2022-07-01 18:15:26.078
+!MESSAGE Failed to access metadata repository under http://downloads.genuitec.com/downloads/products/devstyle/updates/ds20220613a
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at http://downloads.genuitec.com/downloads/products/devstyle/updates/ds20220613a/content.xml.
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:248)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:69)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:89)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:447)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:230)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at com.genuitec.eclipse.webclipse.evergreen.internal.RepositoryController.processRepositories(RepositoryController.java:57)
+	at com.genuitec.eclipse.webclipse.evergreen.internal.RepositoryController.<init>(RepositoryController.java:43)
+	at com.genuitec.eclipse.webclipse.evergreen.internal.EvergreenUpdateProcess.run(EvergreenUpdateProcess.java:210)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:248)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	... 1 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-07-01 18:15:26.349
+!MESSAGE Unable to read repository at http://downloads.genuitec.com/downloads/products/devstyle/updates/ds20220613a/content.xml.
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:248)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-03 13:29:47.634
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-03 13:29:48.503
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-03 13:29:48.503
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-03 13:29:48.503
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY com.genuitec.eclipse.theming.ui 4 0 2022-07-03 13:32:46.682
+!MESSAGE Connection reset
+!STACK 0
+javax.net.ssl.SSLException: Connection reset
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:369)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:312)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:307)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:144)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1369)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1278)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:401)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:373)
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:567)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:197)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1592)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at com.genuitec.eclipse.theming.ui.IconDownloaderJob.getApprovedDefinitions(IconDownloaderJob.java:86)
+	at com.genuitec.eclipse.theming.ui.IconDownloaderJob.run(IconDownloaderJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+	Suppressed: java.net.SocketException: Connection reset by peer: socket write error
+		at java.base/java.net.SocketOutputStream.socketWrite0(Native Method)
+		at java.base/java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:110)
+		at java.base/java.net.SocketOutputStream.write(SocketOutputStream.java:150)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:83)
+		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:400)
+		... 16 more
+Caused by: java.net.SocketException: Connection reset
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:110)
+	... 13 more
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-04 13:39:46.516
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-04 13:39:46.575
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-04 13:39:46.577
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-04 13:39:46.577
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-04 14:10:08.008
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-04 14:10:08.009
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-04 14:10:08.010
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-04 14:10:08.011
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-04 14:40:29.133
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-04 14:40:29.133
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-04 14:40:29.149
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-04 14:40:29.149
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-05 14:57:40.206
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-05 14:57:40.370
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-05 14:57:40.393
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-05 14:57:40.394
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-05 15:28:01.933
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-05 15:28:01.967
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-05 15:28:01.968
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-05 15:28:01.968
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-05 15:58:23.319
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-05 15:58:23.340
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-05 15:58:23.502
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-05 15:58:23.503
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY com.genuitec.eclipse.theming.ui 4 0 2022-07-06 13:50:34.546
+!MESSAGE No route to host: connect
+!STACK 0
+java.net.NoRouteToHostException: No route to host: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at java.base/java.net.Socket.connect(Socket.java:557)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient$1.run(HttpClient.java:526)
+	at java.base/sun.net.www.http.HttpClient$1.run(HttpClient.java:524)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/sun.net.www.http.HttpClient.privilegedOpenServer(HttpClient.java:523)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:564)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:212)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1208)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:189)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1592)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at com.genuitec.eclipse.theming.ui.IconDownloaderJob.getApprovedDefinitions(IconDownloaderJob.java:86)
+	at com.genuitec.eclipse.theming.ui.IconDownloaderJob.run(IconDownloaderJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-06 16:23:42.802
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-06 16:23:42.849
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-06 16:23:42.849
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-06 16:23:42.849
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-06 16:54:04.363
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-06 16:54:04.363
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-06 16:54:04.363
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-06 16:54:04.363
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-06 20:13:01.549
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-06 20:13:01.549
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-06 20:13:01.549
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-06 20:13:01.549
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+!SESSION 2022-07-11 15:17:30.769 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=11.0.12
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2022-07-11 15:19:20.083
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-11 15:19:20.083
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7a7b6556,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@c04b755,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-07-11 15:19:57.662
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-07-11 15:19:57.822
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-07-11 15:19:57.929
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Wesley'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-11 15:21:05.740
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-11 15:21:05.749
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-11 15:21:05.751
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-11 15:21:05.751
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-07-11 15:34:00.066
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package calculofaturamento;
+
+import java.util.Scanner;
+import java.util.Map;
+
+public class MediaFaturamentoAnual {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+	    Map<String>, |Double> map = new HashMap<String, Double>();
+	    String produto = "";
+	    Scanner scanproduto = new Scanner(System.in);
+	    int quant_produto = 0;
+	    double precoUn = 0;
+	    double totalV =0;
+
+	    System.out.print("CONTROLE DE VENDAS DE UMA LOJA DE ELETRODOMÉSTICOS\n");
+	    System.out.print("--------------------------------------------\n\n");
+
+	    System.out.println(" Digite Fim para terminar o lançamento.");
+
+	    while (!produto.equals("Fim") && !produto.equals("FIM")) {
+
+	        System.out.print("Digite o nome do produto: ");
+	        produto = scanproduto.nextLine();
+
+	        if (!produto.equals("Fim") && !produto.equals("FIM")) {
+
+	            System.out.print("Informe o preço unitario:");
+	            precoUn = input.nextDouble();
+
+	            System.out.print("Informe a quantidade de produtos vendidos:");
+	            quant_produto = input.nextInt();
+
+	            System.out.println("Produto:" + produto);
+	            System.out.println("Preço unitário:" + precoUn);
+	            System.out.println("Quantidade vendida:" + quant_produto);
+	            totalProd = (quant_produto * precoUn);
+	            map.put(produto, totalProd);
+	            System.out.println("Valor total do " + produto + ":" + map.get(produto));
+	            totalV = totalV + map.get(produto);
+	        } else {
+	            {
+	                System.out.println("R$ " + totalV);
+	                if (totalV <= 10000) {
+	                    System.out.println("FATURAMENTO BAIXO");
+	                } else {
+	                    System.out.println("FATURAMENTO ÓTIMO");
+	                }
+
+	                System.out.println("Lista de todos os produtos e preços");
+
+	                for(Map.Entry<String, HashMap> entry : selects.entrySet()) {
+	                    String key = entry.getKey();
+	                    System.out.println("Produto: " + key + " - R$ " + map.get(key));
+	                }
+	            }
+	        }
+	    }
+	}
+	}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2031)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3795)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1943)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1974)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3052)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3347)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1524)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:494)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2022-07-11 15:34:00.114
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2031)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3795)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1943)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1974)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3052)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3347)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1524)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:494)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2022-07-11 15:34:00.116
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2031)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3795)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1943)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1974)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3052)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3347)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1524)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:494)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-07-11 15:34:04.584
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package calculofaturamento;
+
+import java.util.Scanner;
+import java.util.Map;
+
+public class MediaFaturamentoAnual {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+	    Map<String>, |Double> map = new HashMap<String, Double>();
+	    String produto = "";
+	    Scanner scanproduto = new Scanner(System.in);
+	    int quant_produto = 0;
+	    double precoUn = 0;
+	    double totalV =0;
+
+	    System.out.print("CONTROLE DE VENDAS DE UMA LOJA DE ELETRODOMÉSTICOS\n");
+	    System.out.print("--------------------------------------------\n\n");
+
+	    System.out.println(" Digite Fim para terminar o lançamento.");
+
+	    while (!produto.equals("Fim") && !produto.equals("FIM")) {
+
+	        System.out.print("Digite o nome do produto: ");
+	        produto = scanproduto.nextLine();
+
+	        if (!produto.equals("Fim") && !produto.equals("FIM")) {
+
+	            System.out.print("Informe o preço unitario:");
+	            precoUn = input.nextDouble();
+
+	            System.out.print("Informe a quantidade de produtos vendidos:");
+	            quant_produto = input.nextInt();
+
+	            System.out.println("Produto:" + produto);
+	            System.out.println("Preço unitário:" + precoUn);
+	            System.out.println("Quantidade vendida:" + quant_produto);
+	            totalProd = (quant_produto * precoUn);
+	            map.put(produto, totalProd);
+	            System.out.println("Valor total do " + produto + ":" + map.get(produto));
+	            totalV = totalV + map.get(produto);
+	        } else {
+	            {
+	                System.out.println("R$ " + totalV);
+	                if (totalV <= 10000) {
+	                    System.out.println("FATURAMENTO BAIXO");
+	                } else {
+	                    System.out.println("FATURAMENTO ÓTIMO");
+	                }
+
+	                System.out.println("Lista de todos os produtos e preços");
+
+	                for(Map.Entry<String, HashMap> entry : selects.entrySet()) {
+	                    String key = entry.getKey();
+	                    System.out.println("Produto: " + key + " - R$ " + map.get(key));
+	                }
+	            }
+	        }
+	    }
+	}
+	}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2031)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3795)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1943)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1974)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3052)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3347)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1524)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.text.java.hover.NLSStringHover.internalGetHoverInfo(NLSStringHover.java:139)
+	at org.eclipse.jdt.internal.ui.text.java.hover.NLSStringHover.getHoverInfo2(NLSStringHover.java:118)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2022-07-11 15:34:04.586
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2031)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3795)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1943)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1974)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3052)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3347)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1524)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.text.java.hover.NLSStringHover.internalGetHoverInfo(NLSStringHover.java:139)
+	at org.eclipse.jdt.internal.ui.text.java.hover.NLSStringHover.getHoverInfo2(NLSStringHover.java:118)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2022-07-11 15:34:04.587
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2031)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3795)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1943)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1974)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3052)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3347)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1524)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.text.java.hover.NLSStringHover.internalGetHoverInfo(NLSStringHover.java:139)
+	at org.eclipse.jdt.internal.ui.text.java.hover.NLSStringHover.getHoverInfo2(NLSStringHover.java:118)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-07-11 15:34:04.607
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package calculofaturamento;
+
+import java.util.Scanner;
+import java.util.Map;
+
+public class MediaFaturamentoAnual {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+	    Map<String>, |Double> map = new HashMap<String, Double>();
+	    String produto = "";
+	    Scanner scanproduto = new Scanner(System.in);
+	    int quant_produto = 0;
+	    double precoUn = 0;
+	    double totalV =0;
+
+	    System.out.print("CONTROLE DE VENDAS DE UMA LOJA DE ELETRODOMÉSTICOS\n");
+	    System.out.print("--------------------------------------------\n\n");
+
+	    System.out.println(" Digite Fim para terminar o lançamento.");
+
+	    while (!produto.equals("Fim") && !produto.equals("FIM")) {
+
+	        System.out.print("Digite o nome do produto: ");
+	        produto = scanproduto.nextLine();
+
+	        if (!produto.equals("Fim") && !produto.equals("FIM")) {
+
+	            System.out.print("Informe o preço unitario:");
+	            precoUn = input.nextDouble();
+
+	            System.out.print("Informe a quantidade de produtos vendidos:");
+	            quant_produto = input.nextInt();
+
+	            System.out.println("Produto:" + produto);
+	            System.out.println("Preço unitário:" + precoUn);
+	            System.out.println("Quantidade vendida:" + quant_produto);
+	            totalProd = (quant_produto * precoUn);
+	            map.put(produto, totalProd);
+	            System.out.println("Valor total do " + produto + ":" + map.get(produto));
+	            totalV = totalV + map.get(produto);
+	        } else {
+	            {
+	                System.out.println("R$ " + totalV);
+	                if (totalV <= 10000) {
+	                    System.out.println("FATURAMENTO BAIXO");
+	                } else {
+	                    System.out.println("FATURAMENTO ÓTIMO");
+	                }
+
+	                System.out.println("Lista de todos os produtos e preços");
+
+	                for(Map.Entry<String, HashMap> entry : selects.entrySet()) {
+	                    String key = entry.getKey();
+	                    System.out.println("Produto: " + key + " - R$ " + map.get(key));
+	                }
+	            }
+	        }
+	    }
+	}
+	}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2031)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3795)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1943)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1974)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3052)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3347)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1524)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoveredASTNode(JavadocHover.java:1003)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getInfoText(JavadocHover.java:799)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:743)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:666)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:658)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2022-07-11 15:34:04.610
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2031)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3795)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1943)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1974)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3052)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3347)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1524)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoveredASTNode(JavadocHover.java:1003)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getInfoText(JavadocHover.java:799)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:743)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:666)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:658)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2022-07-11 15:34:04.612
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2031)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3795)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1943)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1974)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3052)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3347)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1524)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoveredASTNode(JavadocHover.java:1003)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getInfoText(JavadocHover.java:799)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:743)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:666)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:658)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-11 15:51:26.883
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-11 15:51:26.884
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-11 15:51:26.886
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-11 15:51:26.887
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-11 16:21:47.965
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-11 16:21:47.966
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-11 16:21:47.968
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-11 16:21:47.969
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+!SESSION 2022-07-12 09:06:34.643 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=11.0.12
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-07-12 09:12:14.598
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2022-07-12 09:12:54.441
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-12 09:12:54.441
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2db15764,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7d727123,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-07-12 09:13:30.330
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-07-12 09:13:30.396
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-07-12 09:13:30.812
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Wesley'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-12 16:44:47.696
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-12 16:44:48.392
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-12 16:44:48.420
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-12 16:44:48.423
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-12 19:55:28.578
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-12 19:55:28.578
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-12 19:55:28.578
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-12 19:55:28.578
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-13 08:22:57.586
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-13 08:22:58.094
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-13 08:23:00.908
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-13 08:23:01.253
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+!SESSION 2022-07-29 12:20:56.408 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=11.0.12
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2022-07-29 12:22:28.663
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-29 12:22:28.664
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@51f714d1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@77e8492f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-07-29 12:23:10.819
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-07-29 12:23:10.886
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-07-29 12:23:11.078
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Wesley'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-29 12:24:21.009
+!MESSAGE System property https.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-29 12:24:21.011
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-29 12:24:21.013
+!MESSAGE System property http.proxyHost is set to 172.16.1.5 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2022-07-29 12:24:21.015
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
